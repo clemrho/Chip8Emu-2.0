@@ -1,0 +1,12 @@
+[package]
+name = "chip8-sandbox"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+eframe = "0.29"
+egui = "0.29"
+wgpu = "22.0"
+rand = "0.8"
+log = "0.4"
+env_logger = "0.11"

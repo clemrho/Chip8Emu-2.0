@@ -1,20 +1,27 @@
-## How to Run our project?
+# How to Run Chip8-Sandbox
 
-- 1. clone repository
+## Prerequisites
+- Rust (latest stable)
+- macOS (tested on latest versions)
+
+### Installing Rust
 ```bash
-git clone https://github.com/clemrho/chip-8-emulator.git
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
 
-- 2. move into `web` folder
+## Running the App
+To start the native macOS application:
+
 ```bash
-cd chip-8-emulator/web/
+cargo run --release
 ```
 
-- 3. run the server
+## Running Tests
+To run the core logic unit tests:
+
 ```bash
-python3 -m http.server
+cargo test
 ```
 
-- 4. Open browser, type 127.0.0.1:8000
-
-OK!
+## Troubleshooting
+If you encounter issues with `cargo` not being found, ensure your Rust toolchain is correctly added to your PATH.
