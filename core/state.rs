@@ -1,12 +1,19 @@
 use crate::core::utils::{Dstatus, Kstatus, FONTSET};
 
+#[allow(dead_code)]
 pub const RAM_SIZE: usize = 4096;
+#[allow(dead_code)]
 pub const V_REG_COUNT: usize = 16;
+#[allow(dead_code)]
 pub const STACK_SIZE: usize = 16;
+#[allow(dead_code)]
 pub const SCREEN_WIDTH: usize = 64;
+#[allow(dead_code)]
 pub const SCREEN_HEIGHT: usize = 32;
+#[allow(dead_code)]
 pub const KEY_COUNT: usize = 16;
 
+#[allow(dead_code)]
 pub struct CpuState {
     pub ram: [u8; RAM_SIZE],
     pub v_reg: [u8; V_REG_COUNT],
@@ -20,6 +27,7 @@ pub struct CpuState {
     pub keys: [Kstatus; KEY_COUNT],
 }
 
+#[allow(dead_code)]
 impl CpuState {
     pub fn new() -> Self {
         let mut state = Self {

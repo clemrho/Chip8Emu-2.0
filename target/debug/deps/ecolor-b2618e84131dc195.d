@@ -1,0 +1,10 @@
+/Users/yanzelu/DevCode/chip8-emu-2.0/chip-8-emulator/target/debug/deps/ecolor-b2618e84131dc195.d: /Users/yanzelu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ecolor-0.29.1/src/lib.rs /Users/yanzelu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ecolor-0.29.1/src/color32.rs /Users/yanzelu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ecolor-0.29.1/src/hsva_gamma.rs /Users/yanzelu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ecolor-0.29.1/src/hsva.rs /Users/yanzelu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ecolor-0.29.1/src/rgba.rs /Users/yanzelu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ecolor-0.29.1/src/hex_color_runtime.rs
+
+/Users/yanzelu/DevCode/chip8-emu-2.0/chip-8-emulator/target/debug/deps/libecolor-b2618e84131dc195.rmeta: /Users/yanzelu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ecolor-0.29.1/src/lib.rs /Users/yanzelu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ecolor-0.29.1/src/color32.rs /Users/yanzelu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ecolor-0.29.1/src/hsva_gamma.rs /Users/yanzelu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ecolor-0.29.1/src/hsva.rs /Users/yanzelu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ecolor-0.29.1/src/rgba.rs /Users/yanzelu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ecolor-0.29.1/src/hex_color_runtime.rs
+
+/Users/yanzelu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ecolor-0.29.1/src/lib.rs:
+/Users/yanzelu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ecolor-0.29.1/src/color32.rs:
+/Users/yanzelu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ecolor-0.29.1/src/hsva_gamma.rs:
+/Users/yanzelu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ecolor-0.29.1/src/hsva.rs:
+/Users/yanzelu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ecolor-0.29.1/src/rgba.rs:
+/Users/yanzelu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ecolor-0.29.1/src/hex_color_runtime.rs:

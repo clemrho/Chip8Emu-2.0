@@ -1,4 +1,4 @@
-# How to Run Chip8-Sandbox
+# How to Run Chip8 Sandbox
 
 ## Prerequisites
 - Rust (latest stable)
@@ -15,6 +15,21 @@ To start the native macOS application:
 ```bash
 cargo run --release
 ```
+
+## Optional: Test ROMs
+If you want the built-in quick test buttons (IBM Logo, Corax+, Flags), clone the test suite into the repo root:
+
+```bash
+git clone https://github.com/Timendus/chip8-test-suite.git
+```
+
+Then use the **Quick tests** buttons in the top bar.
+
+## Basic Usage
+- **Run / Pause / Step / Reset** control execution.
+- **ROM Path** + **Load ROM** lets you load any local `.ch8` file.
+- **Cycles/frame** changes emulator speed.
+- **Screen scale** changes the display size.
 
 ## Running Tests
 To run the core logic unit tests:

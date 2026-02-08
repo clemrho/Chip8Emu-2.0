@@ -1,4 +1,5 @@
 // some utilities written here
+#[allow(dead_code)]
 pub const FONTSET: [u8; 80] = [
     0xF0, 0x90, 0x90, 0x90, 0xF0, // 0
     0x20, 0x60, 0x20, 0x20, 0x70, // 1
@@ -19,12 +20,14 @@ pub const FONTSET: [u8; 80] = [
 ];
 
 #[derive(Copy,Clone,PartialEq)]
+#[allow(dead_code)]
 pub enum Dstatus{
     On,
     Off,
 }
 
 #[derive(Copy,Clone,PartialEq)]
+#[allow(dead_code)]
 pub enum Kstatus{
     Default,
     Pressed,

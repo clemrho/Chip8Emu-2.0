@@ -1,11 +1,12 @@
 use crate::core::state::CpuState;
 use crate::core::utils::{Dstatus, Kstatus};
-use rand::Rng;
 
+#[allow(dead_code)]
 pub struct Cpu {
     pub state: CpuState,
 }
 
+#[allow(dead_code)]
 impl Cpu {
     pub fn new() -> Self {
         Self {
