@@ -102,9 +102,17 @@ impl eframe::App for Chip8App {
             .resizable(false)
             .show(ctx, |ui| {
                 ui.horizontal(|ui| {
-                    ui.heading("Chip8 Sandbox");
+                    ui.label(
+                        egui::RichText::new("Chip8 Sandbox")
+                            .size(28.0)
+                            .color(egui::Color32::from_rgb(0, 122, 255)),
+                    );
                     ui.separator();
-                    ui.label("Native macOS Chip-8 Emulator");
+                    ui.label(
+                        egui::RichText::new("Native macOS Chip-8 Emulator")
+                            .size(20.0)
+                            .color(egui::Color32::from_rgb(0, 102, 204)),
+                    );
                 });
                 ui.add_space(8.0);
                 ui.horizontal(|ui| {
